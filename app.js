@@ -70,5 +70,5 @@ function changeTotalFour() {
 }
 
 function popupBreak() {
-    popup.innerHTML = <p></p>
+    popup.innerHTML = "<p></p>";
 }
