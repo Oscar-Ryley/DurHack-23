@@ -4,6 +4,16 @@ Table 26 - Orion - David and the Oscars - DrivingDominantLlama
 
 ## Durhack challenges we are aiming for
 
+### Hackiest Hack
+
+### Most Creative use of Github
+
+### Out of this World Storefront
+
+### Atom Bank - Save for the future
+
+### GoDaddy - Best use of a Domain Name
+
 
 ## Our Completed Challenges at Durham 23/24:
 
