@@ -5,6 +5,7 @@ Table 26 - Orion - David and the Oscars - DrivingDominantLlama
 ## Durhack challenges we are aiming for
 
 ### Hackiest Hack
+Can't promise overengineered, but the project will be on strings!
 
 ### Most Creative Use of Github
 Creative use of Github is best exemplified when it is used properly. We seek to attain this by working collaboratively, 
@@ -26,6 +27,15 @@ has been added to the basket, eg budgeting advice if too much is spent.
 
 ### Best Domain Name from GoDaddy Registry
 Our Domain Name will be TBD, which should hopefully win us this award.
+
+### The Project
+The main idea for the project is a website that will, when interacting with 3D models, teach children and young teenagers about
+finance and methods of saving, general financial knowledge and building good habits, such as budgeting. The website will take 
+place on a spaceship and be 'narrated' by a resident astronaut who has used the techniques taught in the information boxes to 
+buy the spaceship that he is currently on. By clicking on each item, relevant information will be displayed about financial 
+knowledge pertaining to the object, ie an image of a chart of weather conditions and asteroids correlating to a stock chart, 
+to talk about stocks, or a model of the globe corresponding with the skewed scale at which children see money. We have mainly 
+used html, bootstrap, css and javascript to achieve this.
 
 
 ## Our Completed Challenges at Durham 23/24:
