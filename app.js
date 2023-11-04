@@ -47,42 +47,24 @@ function changeTextFour() {
 }
 
 var final = 0;
-Final.innerText = str(final)
-
-var one_done = false;
-var two_done = false;
-var four_done = false;
+Final.innerText = String(final);
 
 function changeTotalOne() {
-    if (one_done === false) {
-        var one_done = true;
-        final += 50000
-    }
-    Final.innerText = str(final)
+    final += 50000;
+    Final.innerText = String(final)
 }
 
 function changeTotalTwo() {
-    if (two_done === false) {
-        var two_done = true;
-        final += 25000
-    }
-    Final.innerText = str(final)
+    final += 25000;
+    Final.innerText = String(final);
 }
 
-function changeTotal() {
-    if (Math.random() == 0) {
-        total += Math.floor(Math.random() * 1000) + 1;
-    }
-    else {
-        total -= Math.floor(Math.random() * 1000) + 1;
-    }
-    Final.innerText = str(final)
+function changeTotalThree() {
+    final  -= Math.floor(Math.random() * 1000) + 1;
+    Final.innerText = String(final);
 }
 
-function changeTotalOne() {
-    if (four_done === false) {
-        var four_done = true;
-        final += 25000
-    }
-    Final.innerText = str(final)
+function changeTotalFour() {
+    final += 25000;
+    Final.innerText = String(final);
 }
