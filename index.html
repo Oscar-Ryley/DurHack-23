@@ -9,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
         <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="app.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -20,12 +21,13 @@
         <nav class="navbar navbar-inverted" id="top-bar">
             <div class="container-fluid" id="bootstrap-override-navbar">
                 <div class="navbar-header">
-                    <a class="navbar-brand" id="link">Home</a>
+                    <a class="navbar-brand" id="link" href=".index.html">Home</a>
                 </div>
+                <h2 class="navbar-text"> THE TITLE OF OUR WEBSITE </h2>
             </div>
         </nav>
 
-        <div class="container" style="padding: 2%;">
+        <div class="container">
 
             <div class="column c-models-left">
 
@@ -33,17 +35,17 @@
                     <div class="card col-md-6">
                         <model-viewer id="cardviewer" src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
                         <div class="card-body" id="model-info-box">
-                        <h5 class="card-title">Savings</h5>
-                        <p class="card-text">Feel free to look around my spaceship to learn more about how I could afford it!</p>
-                        <button id="button">Learn More</button>
+                        <h4 class="card-title">Savings</h4>
+                        <p class="card-text">Hi I'm Sammy the Spaceman! Feel free to look around my spaceship to learn more about how I could afford it!</p>
+                        <button id="button" onclick = "changeTextOne()">Learn More</button>
                         </div>
                     </div>
                     <div class="card col-md-6">
                         <model-viewer id="cardviewer" src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
                         <div class="card-body" id="model-info-box">
-                        <h5 class="card-title">Savings</h5>
+                        <h4 class="card-title">Savings</h4>
                         <p class="card-text">Feel free to look around my spaceship to learn more about how I could afford it!</p>
-                        <button id="button">Learn More</button>
+                        <button id="button" onclick = "changeTextTwo()">Learn More</button>
                         </div>
                     </div>
                 </div>
@@ -51,17 +53,17 @@
                     <div class="card col-md-6">
                         <model-viewer id="cardviewer" src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
                         <div class="card-body" id="model-info-box">
-                        <h5 class="card-title">Savings</h5>
+                        <h4 class="card-title">Savings</h4>
                         <p class="card-text">Feel free to look around my spaceship to learn more about how I could afford it!</p>
-                        <button id="button">Learn More</button>
+                        <button id="button" onclick = "changeTextThree()">Learn More</button>
                         </div>
                     </div>
                     <div class="card col-md-6">
                         <model-viewer id="cardviewer" src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
                         <div class="card-body" id="model-info-box">
-                        <h5 class="card-title">Savings</h5>
+                        <h4 class="card-title">Savings</h4>
                         <p class="card-text">Feel free to look around my spaceship to learn more about how I could afford it!</p>
-                        <button id="button">Learn More</button>
+                        <button id="button" onclick = "changeTextFour()">Learn More</button>
                         </div>
                     </div>
                 </div>
@@ -70,29 +72,35 @@
             <div class="column c-text-right">
                 <div class="card" id="information-box">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h2 class="card-title" id="MainTitle">Card title</h2>
                     </div>
                 </div>
                 <br>
                 <div class="card" id="information-box">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h4 class="card-title" id="Title1">Card title</h4>
+                      <p class="card-text" id="Text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
                 <br>
                 <div class="card" id="information-box">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h4 class="card-title" id="Title2">Card title</h4>
+                      <p class="card-text" id="Text2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
                 <br>
                 <div class="card" id="information-box">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h4 class="card-title" id="Title3">Card title</h4>
+                      <p class="card-text" id="Text3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <br>
+                <div class="card" id="information-box">
+                    <div class="card-body">
+                      <h4 class="card-title" id="Title4">Card title</h4>
+                      <p class="card-text" id="Title4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div> 
             </div>
