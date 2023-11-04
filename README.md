@@ -6,13 +6,26 @@ Table 26 - Orion - David and the Oscars - DrivingDominantLlama
 
 ### Hackiest Hack
 
-### Most Creative use of Github
+### Most Creative Use of Github
+Creative use of Github is best exemplified when it is used properly. We seek to attain this by working collaboratively, 
+presenting a (as I hope you will come to agree) helpful and descriptive README.md and by applying Github to an 
+inherently creative idea.
 
-### Out of this World Storefront
+### THG - Out of this World Storefront 
+Basing our website in outer space - quite literally out of this world. By including interactive models that include information, 
+users can add these models to a shopping basket they can use to "buy" the information, thus acting as a storefront.
 
-### Atom Bank - Save for the future
+### Atom Bank - Save for the Future
+While the website may look like a storefront, interacting with each of the items on screen in the space station will provide
+relevant and helpful financial information, fulfilling the educational aspect of this challenge. In order to appeal to the 
+targeted and specified demographic, we will be including a continually running display of short-form content, in order to
+maintain the attention of a generation of decreasing attention span. While this may seem like a distraction, it will keep 
+their thoughts occupied and will also serve to increase the time spent by the children on the website. With the items in the 
+shopping basket, the running total will represent an amount against a budget, with differering advice given for how much
+has been added to the basket, eg budgeting advice if too much is spent.
 
-### GoDaddy - Best use of a Domain Name
+### Best Domain Name from GoDaddy Registry
+Our Domain Name will be TBD, which should hopefully win us this award.
 
 
 ## Our Completed Challenges at Durham 23/24:
