@@ -13,6 +13,7 @@
         <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>
     </head>
     <body id="body">
         
@@ -27,10 +28,43 @@
         <div class="container" style="padding: 2%;">
 
             <div class="column c-models-left">
-                <!-- <model-viewer> HTML element -->
-                <model-viewer id="cardviewer" src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
-                <!-- Loads <model-viewer> for browsers: -->
-                <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>
+
+                <div class="row">
+                    <div class="card col-md-6">
+                        <model-viewer id="cardviewer" src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
+                        <div class="card-body" id="model-info-box">
+                        <h5 class="card-title">Savings</h5>
+                        <p class="card-text">Feel free to look around my spaceship to learn more about how I could afford it!</p>
+                        <button id="button">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="card col-md-6">
+                        <model-viewer id="cardviewer" src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
+                        <div class="card-body" id="model-info-box">
+                        <h5 class="card-title">Savings</h5>
+                        <p class="card-text">Feel free to look around my spaceship to learn more about how I could afford it!</p>
+                        <button id="button">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card col-md-6">
+                        <model-viewer id="cardviewer" src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
+                        <div class="card-body" id="model-info-box">
+                        <h5 class="card-title">Savings</h5>
+                        <p class="card-text">Feel free to look around my spaceship to learn more about how I could afford it!</p>
+                        <button id="button">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="card col-md-6">
+                        <model-viewer id="cardviewer" src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
+                        <div class="card-body" id="model-info-box">
+                        <h5 class="card-title">Savings</h5>
+                        <p class="card-text">Feel free to look around my spaceship to learn more about how I could afford it!</p>
+                        <button id="button">Learn More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="column c-text-right">
