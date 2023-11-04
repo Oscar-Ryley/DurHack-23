@@ -1,0 +1,56 @@
+#body {
+    font-family:'Roboto' sans-serif; 
+    color: white;
+    background-image: url(./assets/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#top-bar {
+    background-color:#3a233e; 
+}
+
+#link {
+    color:white;
+}
+
+#information-box {
+    background-color:#3a233e; 
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.container {
+    padding-left: 50px; 
+    padding-right: 50px;
+}
+
+.column {
+    float: left;
+    padding: 30px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.c-models-left {
+    width: 70%;
+}
+  
+.c-text-right {
+    width: 30%;
+}
+
+#cardviewer {
+    margin: 3em auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    border-radius: 6px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    height: 300px;
+  }
