@@ -45,3 +45,44 @@ function changeTextFour() {
     Title4.innerText =  "What if I'm a first time buyer?";
     Text4.innerText =  "While coming into the housing market as a first time buyer, it can be very intimidating, especially with such large sums of money being introduced - to the point where even at a young age, the prospect can seem impossible! Many young people even believe they'll never own a property in their lives according to recent surveys. Luckily, some banks eg. Atom Bank provide first time buyer schemes at reduced rates and with cashback schemes. I remember when I was a first time spaceship buyer… Good times.";
 }
+
+var final = 0;
+Final.innerText = str(final)
+
+var one_done = false;
+var two_done = false;
+var four_done = false;
+
+function changeTotalOne() {
+    if (one_done === false) {
+        var one_done = true;
+        final += 50000
+    }
+    Final.innerText = str(final)
+}
+
+function changeTotalTwo() {
+    if (two_done === false) {
+        var two_done = true;
+        final += 25000
+    }
+    Final.innerText = str(final)
+}
+
+function changeTotal() {
+    if (Math.random() == 0) {
+        total += Math.floor(Math.random() * 1000) + 1;
+    }
+    else {
+        total -= Math.floor(Math.random() * 1000) + 1;
+    }
+    Final.innerText = str(final)
+}
+
+function changeTotalOne() {
+    if (four_done === false) {
+        var four_done = true;
+        final += 25000
+    }
+    Final.innerText = str(final)
+}

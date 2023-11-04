@@ -69,3 +69,8 @@
     overflow: hidden;
     height: 200px;
   }
+
+#buy-button {
+    background-color:#3a233e;
+    float: right;
+}
