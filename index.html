@@ -37,7 +37,7 @@
 
                 <div class="row">
                     <div class="card col-md-6">
-                        <model-viewer id="cardviewer" src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
+                        <model-viewer id="cardviewer" src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1" auto rotate> </model-viewer>
                         <div class="card-body" id="model-info-box">
                         <h4 class="card-title">Savings</h4>
                         <p class="card-text">Hi I'm Sammy the Spaceman! Feel free to look around my spaceship to learn more about how I could afford it!</p>
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                     <div class="card col-md-6">
-                        <model-viewer id="cardviewer-2" src="http://raw.githubusercontent.com/german-alvarez-dev/workshop-webvr-aframe/master/ship/scene_ship.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
+                        <model-viewer id="cardviewer-2" src="https://raw.githubusercontent.com/Oscar-Ryley/Durhack-23/main/assets/3d_objects/uploads-files-3317857-Globe.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
                         <div class="card-body" id="model-info-box">
                         <h4 class="card-title">The Scope of Money</h4>
                         <p class="card-text">Money can sure be confusing... but being up here helps with the perspective!</p>
@@ -75,14 +75,16 @@
                         </div>
                     </div>
                     <br><br>
-                    <button id="button" onclick="this.style.display='none'; popup.style.display='none'">x</button>
-                    <video width="200" height="600" name="Subway Servers" autoplay muted id="popup" loop>
-                        <source src="./assets/Video.mov">
-                    </video>
-                    <button id="button" onclick="this.style.display='none'; popup2.style.display='none'">x</button>
-                    <video width="400" height="600" name="Subway Servers" autoplay muted id="popup2" loop poster="./assets/videoplayback(2).gif">
-                        <source poster="./assets/videoplayback(2).gif">
-                    </video>
+                    <div>
+                        <button id="button" onclick="this.style.display='none'; popup.style.display='none'">x</button>
+                        <video width="200" height="600" name="Subway Servers" autoplay muted id="popup" loop>
+                            <source src="./assets/Video.mov">
+                        </video>
+                        <button id="button" onclick="this.style.display='none'; popup2.style.display='none'">x</button>
+                        <video width="400" height="600" name="Subway Servers" autoplay muted id="popup2" loop poster="./assets/videoplayback(2).gif">
+                            <source poster="./assets/videoplayback(2).gif">
+                        </video>
+                    </div>
                 </div>
             </div>
 
@@ -120,6 +122,17 @@
                       <p class="card-text" id="Text4"></p>
                     </div>
                 </div> 
+            </div>
+            <div class="row">
+                <div class="card col-md-3 d-flex justify-content-center">
+                    <model-viewer id="cardviewer-2" src="https://raw.githubusercontent.com/Oscar-Ryley/Durhack-23/main/assets/3d_objects/Deep%20Space%201_11.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
+                </div>
+                <div class="card col-md-3 d-flex justify-content-cente">
+                    <model-viewer id="cardviewer-2" src="https://raw.githubusercontent.com/Oscar-Ryley/Durhack-23/main/assets/3d_objects/Galileo.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
+                </div>
+                <div class="card col-md-3 d-flex justify-content-center">
+                    <model-viewer id="cardviewer-2" src="https://raw.githubusercontent.com/Oscar-Ryley/Durhack-23/main/assets/3d_objects/NASA_Aqua.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
+                </div>
             </div>
         </div>
 
