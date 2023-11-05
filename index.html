@@ -39,7 +39,7 @@
                         <h4 class="card-title">Savings</h4>
                         <p class="card-text">Hi I'm Sammy the Spaceman! Feel free to look around my spaceship to learn more about how I could afford it!</p>
                         <button id="button" onclick = "changeTextOne()">Learn More</button>
-                        <button id="buy-button" onclick = "changeTotalOne()">Click here to start saving</button>
+                        <button id="buy-button" onclick = "changeTotalOne(); this.onclick=null;">Click here to start saving</button>
                         </div>
                     </div>
                     <div class="card col-md-6">
@@ -48,7 +48,7 @@
                         <h4 class="card-title">The Scope of Money</h4>
                         <p class="card-text">Money can sure be confusing... but being up here helps with the perspective!</p>
                         <button id="button" onclick = "changeTextTwo()">Learn More</button>
-                        <button id="buy-button" onclick = "changeTotalTwo()">Oh... now I get it</button>
+                        <button id="buy-button" onclick = "changeTotalTwo(); this.onclick=null;">Oh... now I get it</button>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                         <h4 class="card-title">Mortgages</h4>
                         <p class="card-text">For when you want to buy your very own spaceship! Or... house... i guess.</p>
                         <button id="button" onclick = "changeTextFour()">Learn More</button>
-                        <button id="buy-button" onclick = "changeTotalFour()">Get a Mortgage</button>
+                        <button id="buy-button" onclick = "changeTotalFour(); this.onclick=null;">Get a Mortgage</button>
                         </div>
                     </div>
                     <br><br>
@@ -133,7 +133,7 @@
             </div>
             <div class="card" id="information-box">
                 <div style="display: flex;">
-                    <p class="text-center">Starting Money: $100,000; Total Money after spending habits: $</p>
+                    <p>Starting Money: $100,000; Total Money after spending habits: $</p>
                     <p id="Final">0</p>
                 </div>
             </div>
