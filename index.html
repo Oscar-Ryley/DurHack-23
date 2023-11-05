@@ -30,111 +30,114 @@
 
         <div class="container">
 
-            <div class="column c-models-left">
-
-                <div class="row">
-                    <div class="card col-md-6">
-                        <model-viewer id="cardviewer" src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1" auto rotate> </model-viewer>
-                        <div class="card-body" id="model-info-box">
-                        <h4 class="card-title">Savings</h4>
-                        <p class="card-text">Hi I'm Sammy the Spaceman! Feel free to look around my spaceship to learn more about how I could afford it!</p>
-                        <button id="button" onclick = "changeTextOne()">Learn More</button>
-                        <button id="buy-button" onclick = "changeTotalOne(); this.onclick=null;">Click here to start saving</button>
-                        </div>
-                    </div>
-                    <div class="card col-md-6">
-                        <model-viewer id="cardviewer" src="https://raw.githubusercontent.com/Oscar-Ryley/Durhack-23/main/assets/3d_objects/uploads-files-3317857-Globe.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
-                        <div class="card-body" id="model-info-box">
-                        <h4 class="card-title">The Scope of Money</h4>
-                        <p class="card-text">Money can sure be confusing... but being up here helps with the perspective!</p>
-                        <button id="button" onclick = "changeTextTwo()">Learn More</button>
-                        <button id="buy-button" onclick = "changeTotalTwo(); this.onclick=null;">Oh... now I get it</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="card col-md-6">
-                        <model-viewer id="cardviewer" src="https://raw.githubusercontent.com/Oscar-Ryley/Durhack-23/main/assets/3d_objects/sci-fi_dron.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
-                        <div class="card-body" id="model-info-box">
-                        <h4 class="card-title">Stocks</h4>
-                        <p class="card-text">I can't predict the stock market - but I can predict this will be helpful!</p>
-                        <button id="button" onclick = "changeTextThree()">Learn More</button>
-                        <button id="buy-button" onclick = "changeTotalThree()">Invest in the Stock Market</button>
-                        </div>
-                    </div>
-                    <div class="card col-md-6">
-                        <model-viewer id="cardviewer" src="https://raw.githubusercontent.com/Oscar-Ryley/Durhack-23/main/assets/3d_objects/model.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
-                        <div class="card-body" id="model-info-box">
-                        <h4 class="card-title">Mortgages</h4>
-                        <p class="card-text">For when you want to buy your very own spaceship! Or... house... i guess.</p>
-                        <button id="button" onclick = "changeTextFour()">Learn More</button>
-                        <button id="buy-button" onclick = "changeTotalFour(); this.onclick=null;">Get a Mortgage</button>
-                        </div>
-                    </div>
-                    <br><br>
-                    <div id="popup-group">
-                        <button id="button" onclick="this.style.display='none'; popup.style.display='none'">x</button>
-                        <video width="100" height="300" name="Subway Servers" autoplay muted id="popup" loop>
-                            <source src="./assets/Video.mov">
-                        </video>
-                        <button id="button" onclick="this.style.display='none'; popup2.style.display='none'">x</button>
-                        <video width="200" height="300" name="Slime Video" autoplay muted id="popup2" loop poster="./assets/videoplayback(2).gif">
-                            <source poster="./asses/videoplayback(2).gif">
-                        </video>
-                    </div>
-                </div>
-            </div>
-
-            <div class="column c-text-right">
-                <div class="card" id="information-box">
-                    <div class="card-body">
-                      <h2 class="card-title" id="MainTitle">Click 'Learn More' on one of the information boxes</h2>
-                    </div>
-                </div>
-                <br>
-                <div class="card" id="information-box">
-                    <div class="card-body">
-                      <h4 class="card-title" id="Title1"></h4>
-                      <p class="card-text" id="Text1"></p>
-                    </div>
-                </div>
-                <br>
-                <div class="card" id="information-box">
-                    <div class="card-body">
-                      <h4 class="card-title" id="Title2"></h4>
-                      <p class="card-text" id="Text2"></p>
-                    </div>
-                </div>
-                <br>
-                <div class="card" id="information-box">
-                    <div class="card-body">
-                      <h4 class="card-title" id="Title3"></h4>
-                      <p class="card-text" id="Text3"></p>
-                    </div>
-                </div>
-                <br>
-                <div class="card" id="information-box">
-                    <div class="card-body">
-                      <h4 class="card-title" id="Title4"></h4>
-                      <p class="card-text" id="Text4"></p>
-                    </div>
-                </div> 
-            </div>
             <div class="row">
-                <div class="card col-md-3 d-flex justify-content-center">
-                    <model-viewer id="cardviewer-2" src="https://raw.githubusercontent.com/Oscar-Ryley/Durhack-23/main/assets/3d_objects/Deep%20Space%201_11.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
+                <div class="column c-models-left">
+
+                    <div class="row">
+                        <div class="card col-md-6">
+                            <model-viewer id="cardviewer" src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1" auto rotate> </model-viewer>
+                            <div class="card-body" id="model-info-box">
+                            <h4 class="card-title">Savings</h4>
+                            <p class="card-text">Hi I'm Sammy the Spaceman! Feel free to look around my spaceship to learn more about how I could afford it!</p>
+                            <button id="button" onclick = "changeTextOne()">Learn More</button>
+                            <button id="buy-button" onclick = "changeTotalOne(); this.onclick=null;">Click here to start saving</button>
+                            </div>
+                        </div>
+                        <div class="card col-md-6">
+                            <model-viewer id="cardviewer" src="https://raw.githubusercontent.com/Oscar-Ryley/Durhack-23/main/assets/3d_objects/uploads-files-3317857-Globe.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
+                            <div class="card-body" id="model-info-box">
+                            <h4 class="card-title">The Scope of Money</h4>
+                            <p class="card-text">Money can sure be confusing... but being up here helps with the perspective!</p>
+                            <button id="button" onclick = "changeTextTwo()">Learn More</button>
+                            <button id="buy-button" onclick = "changeTotalTwo(); this.onclick=null;">Oh... now I get it</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="card col-md-6">
+                            <model-viewer id="cardviewer" src="https://raw.githubusercontent.com/Oscar-Ryley/Durhack-23/main/assets/3d_objects/sci-fi_dron.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
+                            <div class="card-body" id="model-info-box">
+                            <h4 class="card-title">Stocks</h4>
+                            <p class="card-text">I can't predict the stock market - but I can predict this will be helpful!</p>
+                            <button id="button" onclick = "changeTextThree()">Learn More</button>
+                            <button id="buy-button" onclick = "changeTotalThree()">Invest in the Stock Market</button>
+                            </div>
+                        </div>
+                        <div class="card col-md-6">
+                            <model-viewer id="cardviewer" src="https://raw.githubusercontent.com/Oscar-Ryley/Durhack-23/main/assets/3d_objects/model.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
+                            <div class="card-body" id="model-info-box">
+                            <h4 class="card-title">Mortgages</h4>
+                            <p class="card-text">For when you want to buy your very own spaceship! Or... house... i guess.</p>
+                            <button id="button" onclick = "changeTextFour()">Learn More</button>
+                            <button id="buy-button" onclick = "changeTotalFour(); this.onclick=null;">Get a Mortgage</button>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="row">
+                                <div class="card col-md-3 d-flex justify-content-center">
+                                    <model-viewer id="cardviewer-2" src="https://raw.githubusercontent.com/Oscar-Ryley/Durhack-23/main/assets/3d_objects/Deep%20Space%201_11.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
+                                </div>
+                                <div class="card col-md-3 d-flex justify-content-cente">
+                                    <model-viewer id="cardviewer-2" src="https://raw.githubusercontent.com/Oscar-Ryley/Durhack-23/main/assets/3d_objects/Galileo.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
+                                </div>
+                                <div class="card col-md-3 d-flex justify-content-center">
+                                    <model-viewer id="cardviewer-2" src="https://raw.githubusercontent.com/Oscar-Ryley/Durhack-23/main/assets/3d_objects/NASA_Aqua.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
+                                </div>
+                            </div>
+                            <div class="card" id="information-box">
+                                <div style="display: flex;">
+                                    <p>Starting Money: $100,000; Total Money after spending habits: $</p>
+                                    <p id="Final">0</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="popup-group">
+                            <button id="button" onclick="this.style.display='none'; popup.style.display='none'">x</button>
+                            <video width="100" height="300" name="Subway Servers" autoplay muted id="popup" loop>
+                                <source src="./assets/Video.mov">
+                            </video>
+                            <button id="button" onclick="this.style.display='none'; popup2.style.display='none'">x</button>
+                            <video width="200" height="300" name="Slime Video" autoplay muted id="popup2" loop poster="./assets/videoplayback(2).gif">
+                                <source poster="./asses/videoplayback(2).gif">
+                            </video>
+                        </div>
+                    </div>
                 </div>
-                <div class="card col-md-3 d-flex justify-content-cente">
-                    <model-viewer id="cardviewer-2" src="https://raw.githubusercontent.com/Oscar-Ryley/Durhack-23/main/assets/3d_objects/Galileo.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
-                </div>
-                <div class="card col-md-3 d-flex justify-content-center">
-                    <model-viewer id="cardviewer-2" src="https://raw.githubusercontent.com/Oscar-Ryley/Durhack-23/main/assets/3d_objects/NASA_Aqua.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./assets/3d_objects/model/poster.webp" shadow-intensity="1"> </model-viewer>
-                </div>
-            </div>
-            <div class="card" id="information-box">
-                <div style="display: flex;">
-                    <p>Starting Money: $100,000; Total Money after spending habits: $</p>
-                    <p id="Final">0</p>
+
+                <div class="column c-text-right">
+                    <div class="card" id="information-box">
+                        <div class="card-body">
+                        <h2 class="card-title" id="MainTitle">Click 'Learn More' on one of the information boxes</h2>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card" id="information-box">
+                        <div class="card-body">
+                        <h4 class="card-title" id="Title1"></h4>
+                        <p class="card-text" id="Text1"></p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card" id="information-box">
+                        <div class="card-body">
+                        <h4 class="card-title" id="Title2"></h4>
+                        <p class="card-text" id="Text2"></p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card" id="information-box">
+                        <div class="card-body">
+                        <h4 class="card-title" id="Title3"></h4>
+                        <p class="card-text" id="Text3"></p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card" id="information-box">
+                        <div class="card-body">
+                        <h4 class="card-title" id="Title4"></h4>
+                        <p class="card-text" id="Text4"></p>
+                        </div>
+                    </div> 
                 </div>
             </div>
             <br>
