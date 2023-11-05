@@ -22,6 +22,11 @@
     background-color:#3a233e;
 }
 
+#side-panel-button {
+    background-color:#3a233e;
+    border: none;
+}
+
 #information-box {
     background-color:#3a233e; 
     padding: 10px;
@@ -66,6 +71,14 @@
 #cardviewer {
     margin: 3em auto;
     width: 150px;
+    overflow: hidden;
+    height: 200px;
+  }
+
+
+#cardviewer-2 {
+    margin: 3em auto;
+    width: 300px;
     overflow: hidden;
     height: 200px;
   }
