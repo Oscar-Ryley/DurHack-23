@@ -25,18 +25,20 @@ their thoughts occupied and will also serve to increase the time spent by the ch
 shopping basket, the running total will represent an amount against a budget, with differering advice given for how much
 has been added to the basket, eg budgeting advice if too much is spent.
 
-### Best Domain Name from GoDaddy Registry
-Our Domain Name will be TBD, which should hopefully win us this award.
 
 ### The Project
 The main idea for the project is a website that will, when interacting with 3D models, teach children and young teenagers about
 finance and methods of saving, general financial knowledge and building good habits, such as budgeting. The website will take 
 place on a spaceship and be 'narrated' by a resident astronaut who has used the techniques taught in the information boxes to 
 buy the spaceship that he is currently on. By clicking on each item, relevant information will be displayed about financial 
-knowledge pertaining to the object, ie an image of a chart of weather conditions and asteroids correlating to a stock chart, 
-to talk about stocks, or a model of the globe corresponding with the skewed scale at which children see money. We have mainly 
-used html, bootstrap, css and javascript to achieve this.
-
+knowledge pertaining to the object, ie a model of the globe corresponding with the skewed scale at which children see money. 
+We have mainly used html, bootstrap, css and javascript to achieve this.
+At the bottom of our website, we have included a running total of funds that changes upon interacting with each of the pieces
+of information, or more accurately, a second buttom next to the information prompts. This is to accommodate the "out of this
+world" storefront part of the project, and also strengthen the effect of the financial advice - by taking into account the 
+various lessons learned on the website, the users can watch the funds grow (or fall, on the stock market), reinforcing the
+quality of the lessons and solidifying the concepts numerically. This immersion is further yet increased but limiting the 
+usage, so while you can put money into savings, or learn more multiple times, you are limited to only one mortgage.
 
 ## Our Completed Challenges at Durham 23/24:
 
@@ -56,11 +58,6 @@ COMPLETED
 
 COMPLETED
 
-### 5. Take a photo with DurHack Dino! [ ]
-
-
-### 6. Take a selfie with an organiser [ ]
-
 
 ### 7. Find one fun fact about DurHack 2023's Lead Organiser [x]
 
@@ -70,22 +67,12 @@ He Dressed as Roddy (from flushed away) for Halloween this year
 
 We are working towards this, staying strong so far
 
-### 9. Submit a project to DevPost late (by 12pm) [ ]
-
-
-### 10. Post a TikTok where you tag DurHack [ ]
-
 
 ### 11. Post an Instagram story tagging DurHack [x]
 
 https://github.com/Oscar-Ryley/Durhack-23/blob/main/assets/images/instagram-story.png
 https://github.com/Oscar-Ryley/Durhack-23/blob/main/assets/images/instagram-story-2.jpg
 
-### 12. Submit a project to DevPost on time (by 11am) [ ]
-
-### 13. Participant in Slideshow Karaoke [ ]
-
-### 14. Learn 3 things about the history of DurHack [ ]
 
 ### 15. Write a Hacker Haiku and recite it to a volunteer/organiser [x]
 
@@ -106,8 +93,5 @@ but it could be better
 
 time to start again
 
-### 16. Submit a project to DevPost early (by 10am) [ ]
+### 16. Submit a project to DevPost early (by 10am) [x]
 
-### 17. Don the Dino costume and dance! [ ]
-
-### 18. Find the DurHack Dino! (First person only!!) [ ]
