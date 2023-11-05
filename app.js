@@ -68,7 +68,3 @@ function changeTotalFour() {
     final += 25000;
     Final.innerText = String(final);
 }
-
-function popupBreak() {
-    popup.innerHTML = "<p></p>";
-}

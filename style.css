@@ -79,3 +79,8 @@
     background-color:#3a233e;
     float: right;
 }
+
+#popup-group {
+    position: fixed;
+    top:0;
+}
