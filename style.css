@@ -70,14 +70,6 @@
 
 #cardviewer {
     margin: 3em auto;
-    width: 150px;
-    overflow: hidden;
-    height: 200px;
-  }
-
-
-#cardviewer-2 {
-    margin: 3em auto;
     width: 300px;
     overflow: hidden;
     height: 200px;
